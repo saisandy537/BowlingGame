@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="315fb496-e86c-42bc-be2d-ba9c5b614b6c" name="sai@SANDEEP-PC 2015-11-10 13:16:22" runUser="SANDEEP-PC\sai" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="93881a98-6725-4bcc-89ec-94a70b903099">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="sai_SANDEEP-PC 2015-11-10 13_16_22">
+      <DeploymentItem filename="C:\Users\sai\Desktop\BOWLING\Bowling\Bowling\bin\Debug\Bowling.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-11-10T13:16:22.7425947-05:00" queuing="2015-11-10T13:16:22.9867511-05:00" start="2015-11-10T13:16:23.0364013-05:00" finish="2015-11-10T13:16:23.5226640-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestRoll" storage="c:\users\sai\desktop\bowling\bowling\testgame\bin\debug\testgame.dll" id="9eb1c87a-f0d8-498c-5615-2720e158824b">
+      <Execution id="4c10f353-7e10-471d-b000-42a45c86efc2" />
+      <TestMethod codeBase="C:/Users/sai/Desktop/BOWLING/Bowling/TestGame/bin/Debug/TestGame.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestGame.UnitTest1, TestGame, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRoll" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9eb1c87a-f0d8-498c-5615-2720e158824b" executionId="4c10f353-7e10-471d-b000-42a45c86efc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4c10f353-7e10-471d-b000-42a45c86efc2" testId="9eb1c87a-f0d8-498c-5615-2720e158824b" testName="TestRoll" computerName="SANDEEP-PC" duration="00:00:00.0239088" startTime="2015-11-10T13:16:23.0474093-05:00" endTime="2015-11-10T13:16:23.4646250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c10f353-7e10-471d-b000-42a45c86efc2">
+    </UnitTestResult>
+  </Results>
+</TestRun>
